@@ -6,22 +6,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/style.css">
-    <link rel="stylesheet" href="src/styles/menu.css">
-    <link rel="stylesheet" href="src/styles/home.css">
-    <link rel="stylesheet" href="src/styles/testimonials.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Foodman - landing page</title>
 </head>
+
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-burger" id="nav_logo"> FOOD</i>
-
+            <i class="fa-solid fa-burger" id="nav_logo"> BRF FOODS</i>
             <ul id="nav_list">
                 <li class="nav-item active">
                     <a href="#home">Inicio</a>
@@ -32,10 +29,13 @@
                 <li class="nav-item">
                     <a href="#testimonials">Avaliações</a>
                 </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
             </ul>
 
             <button class="btn-default">
-                Peça aqui
+                <b>Peça aqui</b>
             </button>
 
             <button id="mobile_btn">
@@ -54,6 +54,9 @@
                 <li class="nav-item">
                     <a href="#testimonials">Avaliações</a>
                 </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
             </ul>
 
             <button class="btn-default">
@@ -68,7 +71,7 @@
             <div id="cta">
                 <h1 class="title">
                     O sabor que vai até
-                    <span>Você</span>
+                    <span>você</span>
                 </h1>
 
                 <p class="description">
@@ -106,7 +109,7 @@
             </div>
 
             <div id="banner">
-                <img src="src/images/hero.png" alt="">
+                <img src="src/images/hero.png" alt="Imagem da seção inicial e principal do site">
             </div>
         </section>
 
@@ -120,7 +123,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish.png" class="dish-image" alt="">
+                    <img src="src/images/dish.png" class="dish-image" alt="Icone do cardapio">
 
                     <h3 class="dish-title">
                         Lorem Ipsun
@@ -153,7 +156,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish2.png" class="dish-image" alt="">
+                    <img src="src/images/dish2.png" class="dish-image" alt="Icone do cardapio">
 
                     <h3 class="dish-title">
                         Lorem Ipsun
@@ -186,7 +189,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish3.png" class="dish-image" alt="">
+                    <img src="src/images/dish3.png" class="dish-image" alt="Icone do cardapio">
 
                     <h3 class="dish-title">
                         Lorem Ipsun
@@ -219,7 +222,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish4.png" class="dish-image" alt="">
+                    <img src="src/images/dish4.png" class="dish-image" alt="Icone do cardapio">
 
                     <h3 class="dish-title">
                         Lorem Ipsun
@@ -250,7 +253,7 @@
         </section>
 
         <section id="testimonials">
-            <img src="src/images/chef.png" alt="" id="testimonials_chef">
+            <img src="src/images/chef.png" alt="Imagem do master chef responsavel pelo cardápio do restaurante" id="testimonials_chef">
 
             <div id="testimonials_content">
                 <h2 class="section-title">Depoimentos</h2>
@@ -261,7 +264,7 @@
 
                 <div id="feedbacks">
                     <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="Incone de avatar da seção de comentários">
 
                         <div class="feedback-content">
                                 <p>
@@ -277,20 +280,17 @@
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis magna.
                                     In eu lorem lacinia nunc gravida blandit a non dolor. Etiam cursus ligula massa,
-                                    in pulvinar lectus rutrum ac. Nam fermentum eget turpis et ornare. Nunc efficitur,
-                                    odio ac fringilla tristique, magna nulla finibus urna, varius euismod velit nisi id sem.
-                                    Morbi sed nisl ullamcorper, sodales purus eu, varius ipsum. Maecenas nec turpis ac justo
-                                    tempor ullamcorper sed vitae orci. Fusce vitae aliquet metus.
+                                    in pulvinar lectus rutrum ac.
                                 </p>
                         </div>
                     </div>
 
                     <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <img src="src/images/_CHA8006 (1).jpg" class="feedback-avatar" alt="Incone de avatar da seção de comentários">
 
                         <div class="feedback-content">
                                 <p>
-                                Fulano de Tal
+                                <b>Francisco Júnior</b>
                                     <span>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -300,24 +300,46 @@
                                     </span>
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis magna.
-                                    In eu lorem lacinia nunc gravida blandit a non dolor. Etiam cursus ligula massa,
-                                    in pulvinar lectus rutrum ac. Nam fermentum eget turpis et ornare. Nunc efficitur,
-                                    odio ac fringilla tristique, magna nulla finibus urna, varius euismod velit nisi id sem.
-                                    Morbi sed nisl ullamcorper, sodales purus eu, varius ipsum. Maecenas nec turpis ac justo
-                                    tempor ullamcorper sed vitae orci. Fusce vitae aliquet metus.
+                                    Comida excelente, e um bom atendimento oferecido em um estabelecimento com ambiente agradável,
+                                    com excelentes profissionais, atenciosos e educados na hora do atendimento aos clientes, super
+                                    receptivos e ágil na prestação dos serviçoes.
                                 </p>
                         </div>
                     </div>
                 </div>
-
                 <button class="btn-default">
                     Ver mais avaliações
                 </button>
             </div>
         </section>
+
+        <section id="contact">
+
+        </section>
     </main>
 
+    <footer>
+        <img src="src/images/wave.svg" alt="Imagem do footer">
+        <div id="footer_items">
+            <span id="copyright">
+                <b>Todos os direitos reservados &copy 2025 - BRF FOODS</b>
+            </span>
+            <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+            </div>
+        </div>
+    </footer>
     <script src="src/javascript/script.js"></script>
 </body>
 </html>
