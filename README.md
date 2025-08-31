@@ -4,7 +4,7 @@ Uma landing page responsiva com tema de restaurante, construída com HTML, CSS e
 
 ## 🌐 Visualize o projeto:
 
-**[Ver Projeto Online]()**
+**[Ver Projeto Online](https://brffoods.netlify.app/)**
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -21,3 +21,14 @@ Uma landing page responsiva com tema de restaurante, construída com HTML, CSS e
 1. Clone ou baixe os arquivos do projeto
 2. Abra o arquivo `index.html` no seu navegador
 3. Não é necessária configuração adicional - todas as dependências são carregadas via CDN
+
+## ⌛ Funcionalidades futuras a serem implementadas
+
+- Criar carrinho de compra;
+- Criar função de adicionar e remover produto;
+- Criar função de endereço de entrega;
+- Adicionar API do google maps;
+- Adicionar gatway de pagamento, integrado ao whatsapp.
+
+## Desenvolvido por:
+
