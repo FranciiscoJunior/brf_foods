@@ -331,9 +331,7 @@
                     </div>
                 </div>
 
-                <button class="btn-default" id="toggleComment">
-                    Ver mais avaliações
-                </button>
+                <button class="btn-default" id="toggleComment">Ver mais avaliações</button>
             </div>
         </section>
 
@@ -361,8 +359,8 @@
                     <h1>Informações e contato</h1>
                     <ul>
                         <li><strong>Endereço:</strong> BR-104, Rua das Palmas, Cerro Corá - RN, 59395-000</li>
-                        <li><strong>Email:</strong> <a href="mailto:brffoods@gmail.com">brffoods@gmail.com</a></li>
-                        <li><strong>Telefone:</strong> <a href="tel:+55 (84) 99134-7327">+55 (84) 99134-7327</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:brffoods@gmail.com"> brffoods@gmail.com</a></li>
+                        <li><strong>Telefone:</strong> <a href="tel:+55 (84) 99134-7327"> +55 (84) 99134-7327</a></li>
                     </ul>
                 </div>
             </div>
@@ -391,6 +389,23 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const thirdComment = document.getElementById('comment3');
+            const button = document.getElementById('toggleComment');
+
+            if (!thirdComment || !button) {
+                console.error('Elemento não encontrado: verifique os IDs.');
+                return;
+            }
+
+            button.addEventListener('click', function () {
+                thirdComment.classList.toggle('hidden');
+                button.textContent = thirdComment.classList.contains('hidden') ? 'Ver mais avaliações' : 'Ver menos avaliações';
+            });
+        });
+    </script>
 
     <a href="https://wa.me/5584991347327?text=Ol%C3%A1%2C%20vim%20direto%20do%20site%20e%20gostaria%20de%20agendar%20um%20dos%20servi%C3%A7os..." class="btn-whatsapp" target="_blank"><img src="./src/images/whatssapp.svg" alt="Botão whatsapp"> <span class="tooltip-text">Solicicitar delivery</span></a>
 

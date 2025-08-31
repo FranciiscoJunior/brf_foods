@@ -36,22 +36,6 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
     });
 
-    document.addEventListener('DOMContentLoaded', function () {
-        const thirdComment = document.getElementById('comment3');
-        const button = document.getElementById('toggleComment');
-
-        button.addEventListener('click', function () {
-
-            if (thirdComment.classList.contains('hidden')) {
-                thirdComment.classList.remove('hidden');
-                button.textContent = 'Ver menos';
-            } else {
-                thirdComment.classList.add('hidden');
-                button.textContent = 'Ver mais';
-            }
-        });
-    });
-
     ScrollReveal().reveal('#cta', {
         origin: 'left',
         duration: 2000,
