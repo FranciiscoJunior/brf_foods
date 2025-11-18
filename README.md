@@ -30,5 +30,5 @@ Uma landing page responsiva com tema de restaurante, construída com HTML, CSS e
 - Adicionar API do google maps;
 - Adicionar gatway de pagamento, integrado ao whatsapp.
 
-## Desenvolvido por:
+## Desenvolvido p
 
